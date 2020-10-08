@@ -1,0 +1,84 @@
+
+body {
+    width: 99%;
+    height: 99%;
+  font-size: 120%;
+  background:mistyrose;
+ margin: 1% 1% 1% 1%;
+}
+
+.naslov {
+  width: 99%;
+  margin: 10px auto 0px;
+  color: white;
+  background:rosybrown;
+  text-align: center;
+  border: 1px solid rebeccapurple;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding:2px;
+}
+ .sadrzaj {
+  width: 1%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #a94442; 
+  background: #dff0d8; 
+  border: 1px solid #a94442;
+  margin-bottom: 20px;
+}
+ul { 
+    width: 95%;
+    margin: 10px auto 0px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 7px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #9932CC;
+  }
+  .odj{
+    float: left;
+    
+  }
+  .odj p{
+    display: block;
+    color: rgb(70, 31, 31);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+  }
